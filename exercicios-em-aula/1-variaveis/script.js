@@ -25,8 +25,8 @@ console.log(typeof nascimento);
 console.log(typeof primeiroContato);
 
 // 7. Crie uma variável sem nenhum valor atribuído e imprima seu valor e seu tipo no console
-const indefinida = undefined;
+let indefinida = undefined;
 console.log(typeof indefinida);
 // 8. Crie uma variável inicializada com o valor nulo e imprima seu valor e seu tipo no console
-const nula = Null;
+let nula = Null;
 console.log(typeof nula);
