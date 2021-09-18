@@ -2,7 +2,7 @@
 
 **18/09/2021 e 22/09/2021**
 
-Board para escrever dúvidas/ comentários em aula: http://dontpad.com/on10-logica-com-js
+Board para escrever dúvidas/ comentários em aula: **TBD**
 
 ## Objetivo
 
