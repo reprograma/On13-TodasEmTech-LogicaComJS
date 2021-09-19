@@ -6,13 +6,15 @@
 
 
 // 1. Crie uma variável que armazene a mensagem "Olá, Mundo!" e a imprima no console
-
-
+let mensagem = "Olá mundo!"
+console.log(mensagem);
 // 2. Crie uma variável que armazene seu nome
-
+let nome = "aline"
+console.log(nome);
 
 // 3. Crie uma variável que armazene o ano de seu nascimento
-
+let dataNascimento = "26/01/1998"
+console.log(dataNascimento);
 
 // 4. Crie uma variável que indique se hoje foi seu primeiro contato com javascript
 
