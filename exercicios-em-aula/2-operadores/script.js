@@ -13,8 +13,8 @@
 
 
 // 1. Receba dois números por meio do prompt
-  let numeroUm = Number(prompt("Digite o primeiro numero"))
-  let numeroDois = Number(prompt("Digite o segundo numero"))
+  let numeroUm = prompt("Digite o primeiro numero")
+  let numeroDois = prompt("Digite o segundo numero")
 
 
 // 2. Informe na tela a soma desses números
@@ -29,8 +29,8 @@ alert(numeroUm * numeroDois)
 
 
 // 5. Receba dois números inteiros por meio do prompt
-let numeroUm = Number(parseInt(prompt("Digite o primeiro numero")))
-let numeroDois = Number(ParseInt(prompt("Digite o segundo numero")))
+let numeroUmInteiro = parseInt(prompt("Digite o primeiro numero"))
+let numeroDoisInteiro = parseInt(prompt("Digite o segundo numero"))
 
 // 6. Informe o resultado da divisão do primeiro pelo segundo
 alert(numeroUm / numeroDois)
