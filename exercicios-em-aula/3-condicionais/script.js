@@ -53,12 +53,35 @@ switch (dia) {
 */
 
 let numeroEscolhido = prompt("Insira um numero de 1-7");
-
+if (numeroEscolhido === 7){
+  console.log("domingo")
+} else if (numeroEscolhido === 6) {
+  console.log("sabado")
+}  else if (numeroEscolhido === 5) {
+  console.log("sexta")
+}  else if (numeroEscolhido === 4) {
+  console.log("quinta")
+}  else if (numeroEscolhido === 3) {
+  console.log("quarta")
+}  else if (numeroEscolhido === 2) {
+  console.log("terça")
+} else {
+  console.log("segunda")
+}
 /*
   3. Elabore um algoritmo que receba dois números e determine qual é o maior entre eles, se ambos os números forem iguais, mostre uma mensagem no console "Os números são iguais";
 */
+let numero1 = num1 
+let numbero2 = num2 
 
-
+if (num1 > num2) {
+  console.log(num1);
+} else if (num1 === num2) {
+  console.log("Os numeros escolhidos são iguais");
+} else {
+  console.log(num2);
+} 
+console.log(2,2)
 /*
   4. Crie um algoritmo que receba três notas de um aluno, calcule sua média
      e mostre as seguintes mensagens de acordo com cada situação:
@@ -71,6 +94,18 @@ let numeroEscolhido = prompt("Insira um numero de 1-7");
     Alunos de recuperação devem ver a mensagem: Você está de recuperação!
     Alunos reprovados devem ver a mensagem: Que pena, você foi reprovado.
 */
+let nota1 = 2
+let nota2 = 2
+let nota3 = 2
+let media = (nota1 + nota2 + nota3) / 3
+
+if (media >= 7) {
+  console.log("Parabéns, você foi aprovado, aproveite suas férias!")
+} else if (media >= 5) {
+  console.log("Você está de recuperação!")
+} else {
+  console.log("Que pena, você foi reprovado.");
+}
 
 /*
  5. Crie um algoritmo que receba dois números e some todos os números
