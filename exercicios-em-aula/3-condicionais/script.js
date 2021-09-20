@@ -23,16 +23,38 @@
 */
 
 let letraEscolhida = prompt("insira uma letra qualquer do alfabeto").toLowerCase();
+if (letraEscolhida === "a" || "e" || "i" || "o" || "u") {
+  console.log("é vogal")
+} else {
+  console.log("é consoante")
+}
 
-// 
-
+switch (dia) {
+  case "a":
+    console.log("é vogal")
+    break
+  case "e":
+    console.log("é vogal")
+    break
+  case "i":
+    console.log("é vogal")
+    break
+  case "o":
+    console.log("é vogal")
+    break
+  case "u":
+    console.log("é vogal")
+    break
+    default:
+      console.log("é consoante")
+}
 /* 
   2. Elabore um algoritmo que receba um número (1-7) e devolva o dia da semana correspondente;
 */
 
 let numeroEscolhido = prompt("Insira um numero de 1-7");
 
-/* 
+/*
   3. Elabore um algoritmo que receba dois números e determine qual é o maior entre eles, se ambos os números forem iguais, mostre uma mensagem no console "Os números são iguais";
 */
 
@@ -40,11 +62,11 @@ let numeroEscolhido = prompt("Insira um numero de 1-7");
 /*
   4. Crie um algoritmo que receba três notas de um aluno, calcule sua média
      e mostre as seguintes mensagens de acordo com cada situação:
-  
+
     Se a media for igual ou maior que 7 - Aprovado
-    Se a media for maior e igual a cinco e menor que 7 - Recuperação 
+    Se a media for maior e igual a cinco e menor que 7 - Recuperação
     Se a media for menor que 5 - Reprovado
-  
+
     Alunos aprovados devem ver a mensagem: Parabéns, você foi aprovado, aproveite suas férias!
     Alunos de recuperação devem ver a mensagem: Você está de recuperação!
     Alunos reprovados devem ver a mensagem: Que pena, você foi reprovado.
