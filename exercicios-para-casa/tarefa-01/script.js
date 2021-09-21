@@ -9,3 +9,12 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+
+let userName = 'maria', userPassword = 'maravilhosa';
+
+let inputName = prompt('Nome de usuário: ').toLowerCase();
+let inputPassword = prompt('Senha: ').toLowerCase();
+
+userName === inputName && userPassword === inputPassword ? alert ('Bom dia') :  alert('Nome de usuário ou senha inválidos');
+
+
