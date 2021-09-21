@@ -10,13 +10,11 @@
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
 
-      let nomeUsuario = prompt("coloque seu nome")
-      let senhaUsuario = prompt("coloque sua senha")
-      confirm("Seu nome e senha estão corretos?") 
-      if (true) {
-      alert("Bom dia!")
-      } else {
-      alert("Dados Incorretos")
-      }
-
-      // não consigo fazer funcionar o else
+let nomeUsuario = prompt("coloque seu nome")
+let senhaUsuario = prompt("coloque sua senha")
+let dadosCorretos = confirm("Seu nome e senha estão corretos?")
+if (dadosCorretos === true) {
+  alert("Bom dia!")
+} else {
+  alert("Dados Incorretos")
+}
