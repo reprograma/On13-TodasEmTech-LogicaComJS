@@ -45,25 +45,25 @@ switch (letra) {
   case "u":
     console.log("é vogal")
     break
-    default:
-      console.log("é consoante")
+  default:
+    console.log("é consoante")
 }
 /* 
   2. Elabore um algoritmo que receba um número (1-7) e devolva o dia da semana correspondente;
 */
 
 let numeroEscolhido = prompt("Insira um numero de 1-7");
-if (numeroEscolhido === 7){
+if (numeroEscolhido === 7) {
   console.log("domingo")
 } else if (numeroEscolhido === 6) {
   console.log("sabado")
-}  else if (numeroEscolhido === 5) {
+} else if (numeroEscolhido === 5) {
   console.log("sexta")
-}  else if (numeroEscolhido === 4) {
+} else if (numeroEscolhido === 4) {
   console.log("quinta")
-}  else if (numeroEscolhido === 3) {
+} else if (numeroEscolhido === 3) {
   console.log("quarta")
-}  else if (numeroEscolhido === 2) {
+} else if (numeroEscolhido === 2) {
   console.log("terça")
 } else {
   console.log("segunda")
@@ -72,7 +72,7 @@ if (numeroEscolhido === 7){
   3. Elabore um algoritmo que receba dois números e determine qual é o maior entre eles, se ambos os números forem iguais, mostre uma mensagem no console "Os números são iguais";
 */
 let numero1 = 5
-let numbero2 = 2 
+let numbero2 = 2
 
 if (numero1 > numbero2) {
   console.log(numero1);
@@ -80,8 +80,8 @@ if (numero1 > numbero2) {
   console.log("Os numeros escolhidos são iguais");
 } else {
   console.log(numbero2);
-} 
-console.log(2,2)
+}
+console.log(2, 2)
 /*
   4. Crie um algoritmo que receba três notas de um aluno, calcule sua média
      e mostre as seguintes mensagens de acordo com cada situação:
@@ -123,7 +123,7 @@ let maiorValor = numero1 > numero2 ? numero1 : numero2
 let menorValor = numero1 < numero2 ? numero1 : numero2
 let soma = 0
 
-for(let i = menorValor; i <= maiorValor; i++) {
+for (let i = menorValor; i <= maiorValor; i++) {
   soma += i
 }
 console.log(soma)
