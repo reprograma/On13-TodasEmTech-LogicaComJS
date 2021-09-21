@@ -29,7 +29,7 @@ if (letraEscolhida === "a" || "e" || "i" || "o" || "u") {
   console.log("é consoante")
 }
 
-switch (dia) {
+switch (letra) {
   case "a":
     console.log("é vogal")
     break
@@ -71,15 +71,15 @@ if (numeroEscolhido === 7){
 /*
   3. Elabore um algoritmo que receba dois números e determine qual é o maior entre eles, se ambos os números forem iguais, mostre uma mensagem no console "Os números são iguais";
 */
-let numero1 = num1 
-let numbero2 = num2 
+let numero1 = 5
+let numbero2 = 2 
 
-if (num1 > num2) {
-  console.log(num1);
-} else if (num1 === num2) {
+if (numero1 > numbero2) {
+  console.log(numero1);
+} else if (numero1 === numbero2) {
   console.log("Os numeros escolhidos são iguais");
 } else {
-  console.log(num2);
+  console.log(numbero2);
 } 
 console.log(2,2)
 /*
