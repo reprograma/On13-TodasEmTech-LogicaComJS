@@ -117,3 +117,13 @@ if (media >= 7) {
         se os números informados forem 2 e 7, seu programa deve retornar 27,
         pois 2 + 3 + 4 + 5 + 6 + 7 = 27
 */
+let numero1 = 5
+let numero2 = 10
+let maiorValor = numero1 > numero2 ? numero1 : numero2
+let menorValor = numero1 < numero2 ? numero1 : numero2
+let soma = 0
+
+for(let i = menorValor; i <= maiorValor; i++) {
+  soma += i
+}
+console.log(soma)
