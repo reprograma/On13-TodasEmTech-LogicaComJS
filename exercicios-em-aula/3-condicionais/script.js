@@ -17,25 +17,83 @@
     https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while
  */
 
-
 /* 
   1. Elabore um algoritmo que receba uma letra e determine se é uma vogal ou consoante (Faça duas versões deste código, uma utilizando if-else e outra utilizando switch-case);
 */
 
-let letraEscolhida = prompt("insira uma letra qualquer do alfabeto").toLowerCase();
+let letraEscolhida = prompt(
+  'insira uma letra qualquer do alfabeto'
+).toLowerCase()
 
-// 
+if (
+  letraEscolhida == 'a' ||
+  letraEscolhida == 'e' ||
+  letraEscolhida == 'i' ||
+  letraEscolhida == 'o' ||
+  letraEscolhida == 'u'
+) {
+  alert('vogal')
+} else {
+  alert('consoante')
+}
+
+switch (letraEscolhida) {
+  case 'a':
+  case 'e':
+  case 'i':
+  case 'o':
+  case 'u':
+    alert('vogal')
+    break
+  default:
+    alert('consoante')
+}
+//
 
 /* 
   2. Elabore um algoritmo que receba um número (1-7) e devolva o dia da semana correspondente;
 */
 
-let numeroEscolhido = prompt("Insira um numero de 1-7");
+let numeroEscolhido = parseInt(prompt('Insira um numero de 1-7'));
 
+switch (numeroEscolhido) {
+  case 1:
+    alert('Segunda')
+    break
+  case 2:
+    alert('Terça')
+    break
+  case 3:
+    alert('Quarta')
+    break
+  case 4:
+    alert('Quinta')
+    break
+  case 5:
+    alert('Sexta')
+    break
+  case 6:
+    alert('Sabado')
+    break
+  case 7:
+    alert('Domingo')
+    break;
+    default: alert('o numero digitado não corresponde a  um dia da semana');
+}
 /* 
   3. Elabore um algoritmo que receba dois números e determine qual é o maior entre eles, se ambos os números forem iguais, mostre uma mensagem no console "Os números são iguais";
 */
 
+let number1 = Number(prompt('insira um numero'))
+let number2 = Number(prompt('insira outro numero'))
+
+if (number1 > number2) {
+  alert(`o numero ${number1} e o maior`)
+} else if (number2 > number1) {
+  alert(`o numero ${number2} e o maior`)
+} else {
+  alert('os dois numeros são iguais')
+}
 
 /*
   4. Crie um algoritmo que receba três notas de um aluno, calcule sua média
@@ -50,13 +108,14 @@ let numeroEscolhido = prompt("Insira um numero de 1-7");
     Alunos reprovados devem ver a mensagem: Que pena, você foi reprovado.
 */
 
-/*
- 5. Crie um algoritmo que receba dois números e some todos os números
-    começados no primeiro e terminados no segundo
+let nota1 = parseFloat(prompt('insira a primeira nota'))
 
-    Faça duas versões deste exercício: usando for e usando while
+let nota2 = parseFloat(prompt('insira a segunda nota'))
 
-    Exemplo:
-        se os números informados forem 2 e 7, seu programa deve retornar 27,
-        pois 2 + 3 + 4 + 5 + 6 + 7 = 27
-*/
+let nota3 = parseFloat(prompt('insira a terceira nota'))
+
+media = (nota1 + nota2 + nota3) / 3
+
+if (media >= 7) alert('aprovado')
+else if (media >= 5 && media < 7) alert('recuperacao')
+else alert('reprovado')
