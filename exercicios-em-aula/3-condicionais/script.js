@@ -22,15 +22,13 @@
   1. Elabore um algoritmo que receba uma letra e determine se é uma vogal ou consoante (Faça duas versões deste código, uma utilizando if-else e outra utilizando switch-case);
 */
 
-let letraEscolhida = prompt("insira uma letra qualquer do alfabeto").toLowerCase();
-
 // 
 
 /* 
   2. Elabore um algoritmo que receba um número (1-7) e devolva o dia da semana correspondente;
 */
 
-let numeroEscolhido = prompt("Insira um numero de 1-7");
+
 
 /* 
   3. Elabore um algoritmo que receba dois números e determine qual é o maior entre eles, se ambos os números forem iguais, mostre uma mensagem no console "Os números são iguais";
