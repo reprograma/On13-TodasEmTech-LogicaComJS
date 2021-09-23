@@ -45,8 +45,18 @@ let numeroUm = Number(prompt("Digite o primeiro numero"))
 
   let soma = 0
   
-  for (let i = numeroUm; i <= blur; i++) {
+  for (let i = numeroUm; i <= numeroDois; i++) {
     soma += i;
   }
 
   alert (`A soma é ${soma}`)
+
+
+  let j = a;
+soma = 0;
+while (j <= b) {
+  soma += j;
+  ++j;
+}
+
+alert(`A soma é ${soma}`);
