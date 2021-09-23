@@ -13,15 +13,14 @@
 
 
 // 1. Receba dois números por meio do prompt
-  let numeroUm = prompt("Digite o primeiro numero")
-  let numeroDois = prompt("Digite o segundo numero")
+  let numeroUm = parseInt(prompt("Digite o primeiro numero"))
+  let numeroDois = parseInt(prompt("Digite o segundo numero"))
 
 
 // 2. Informe na tela a soma desses números
 alert(numeroUm + numeroDois)
 
 // 3. Informe o resultado da subtração desses números
-
 alert(numeroUm - numeroDois)
 
 // 4. Informe o produto desses números
