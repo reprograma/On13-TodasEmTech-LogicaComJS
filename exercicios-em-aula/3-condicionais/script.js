@@ -23,7 +23,7 @@
 */
 
 let letraEscolhida = prompt("insira uma letra qualquer do alfabeto").toLowerCase();
-if (letraEscolhida === "a" || "e" || "i" || "o" || "u") {
+if (letraEscolhida === "a" || letraEscolhida === "e" || letraEscolhida === "i" || letraEscolhida === "o" || letraEscolhida === "u") {
   console.log("é vogal")
 } else {
   console.log("é consoante")
@@ -31,22 +31,14 @@ if (letraEscolhida === "a" || "e" || "i" || "o" || "u") {
 
 switch (letra) {
   case "a":
-    console.log("é vogal")
-    break
   case "e":
-    console.log("é vogal")
-    break
   case "i":
-    console.log("é vogal")
-    break
   case "o":
-    console.log("é vogal")
-    break
   case "u":
-    console.log("é vogal")
+    alert("é vogal")
     break
   default:
-    console.log("é consoante")
+    alert("é consoante")
 }
 /* 
   2. Elabore um algoritmo que receba um número (1-7) e devolva o dia da semana correspondente;
