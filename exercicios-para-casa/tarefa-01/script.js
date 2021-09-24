@@ -8,4 +8,14 @@
       a. caso afirmativo, cumprimente o usuário com um `Bom dia!` por meio de um `alert`;
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
- */
+
+let nome=prompt("Digite seu nome"); 
+console.log(nome);
+let senha=prompt("Digite sua senha"); 
+console.log(senha);
+
+if (nome==="Quezia Guilhermina" && senha==="123"){ 
+    alert("Bom dia!");
+} else { 
+    alert("Credenciais incorretas");
+}
