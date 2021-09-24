@@ -9,3 +9,13 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+
+      let user = (prompt('Digite o seu nome'));
+      let password = (prompt('Digite a sua senha'));
+      if ( user!=0 && password!=0){
+        alert('Bom dia!');
+      }
+      else{
+        alert ('Suas credenciais estão erradas, tente novamente');
+      }
+    
