@@ -9,3 +9,15 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+
+
+      let nome=prompt("Digite seu nome"); 
+      console.log(nome);
+      let senha=prompt("Digite sua senha"); 
+      console.log(senha);
+      
+      if (nome==="Taiana" && senha==="123"){ 
+          alert("Bom dia!");
+      } else { 
+          alert("Credenciais incorretas");
+      }
