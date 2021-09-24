@@ -6,7 +6,7 @@
  */
 let i = 0;
 let precoItens = 0;
-soma = 0;
+let soma = 0;
 while (i < 10) {
     precoItens = parseFloat(prompt('Insira o valor do produto em reais:'));
     soma += precoItens;
