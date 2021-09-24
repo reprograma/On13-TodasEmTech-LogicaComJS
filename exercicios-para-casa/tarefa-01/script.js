@@ -9,3 +9,20 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+
+      let user = 'Ane';
+      let pass = 'OBGMDS';
+
+      console.log(user);
+      console.log(pass);
+
+
+      const usuario= (prompt("digite o seu nome de usuario:"));
+      const senha = (prompt("digite a sua senha com no minimo 6 letras e apenas letras:"));
+
+      if(user == usuario || pass == senha){
+        alert(`Bom dia!`);
+      }else { 
+        alert(`credenciais incorretas`);
+      }
+      
