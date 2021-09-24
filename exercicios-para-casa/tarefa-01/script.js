@@ -9,3 +9,15 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+
+
+const nameUser = prompt("Digite seu nome");
+const passwordUser = prompt('Digite sua senha:');
+
+  if (nameUser != 0 && passwordUser != 0){
+    alert(`Bom dia ${nameUser}`)
+  }
+
+  else{
+    alert("Não foi possível encontrar o nome e a senha do usuário, digite novamente")
+  };
