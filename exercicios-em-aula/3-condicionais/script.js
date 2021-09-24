@@ -23,19 +23,74 @@
 */
 
 let letraEscolhida = prompt("insira uma letra qualquer do alfabeto").toLowerCase();
+if (letraEscolhida == 'a' || letraEscolhida == 'e' || letraEscolhida == 'i' || letraEscolhida == 'o' || letraEscolhida == 'u') {
+  alert('VOGAL')
+}
 
+else {
+  alert('CONSOANTE')
+}
+
+switch (letraEscolhida) {
+  case 'a':
+  case 'e':
+  case 'i':
+  case 'o':
+  case 'u':
+    alert('VOGAL');
+    break;
+  default:
+    alert('CONSOANTE')
+}
 // 
 
 /* 
   2. Elabore um algoritmo que receba um número (1-7) e devolva o dia da semana correspondente;
 */
-
 let numeroEscolhido = prompt("Insira um numero de 1-7");
-
+switch (numeroEscolhido) {
+  case '1':
+    alert('Segunda-feira');
+    break;
+  case '2':
+    alert('Terça-feira');
+    break;
+  case '3':
+    alert('Quarta-feira');
+    break;
+  case '4':
+    alert('Quinta-feira');
+    break;
+  case '5':
+    alert('Sexta-feira');
+    break;
+  case '6':
+    alert('Sábado');
+    break;
+  case '7':
+      alert('Domingo');
+      break;
+    default:
+      alert('Número inválido')
+}
 /* 
   3. Elabore um algoritmo que receba dois números e determine qual é o maior entre eles, se ambos os números forem iguais, mostre uma mensagem no console "Os números são iguais";
 */
 
+let num1 = prompt("Insira um numero:");
+let num2 = prompt("Insira outro numero:");
+
+if (num1 > num2) {
+  alert(`${num1} é maior que o ${num2}`)
+}
+
+else if (num2 > num1) {
+  alert(`${num2} é maior que o ${num1}`)
+}
+
+else {
+  alert('Os números são iguais')
+}
 
 /*
   4. Crie um algoritmo que receba três notas de um aluno, calcule sua média
@@ -49,7 +104,22 @@ let numeroEscolhido = prompt("Insira um numero de 1-7");
     Alunos de recuperação devem ver a mensagem: Você está de recuperação!
     Alunos reprovados devem ver a mensagem: Que pena, você foi reprovado.
 */
+let nota1 = Number(prompt('Insira a primeira nota: '));
+let nota2 = Number(prompt('Insira a segunda nota: '));
+let nota3 = Number(prompt('Insira a terceira nota: '));
+let media = (nota1 + nota2 + nota3)/3;
 
+if (media >= 7) {
+  alert('APROVADO');
+}
+
+else if (5 <= media < 7) {
+  alert('RECUPERAÇÃO')
+}
+
+else {
+  alert('REPROVADO')
+}
 /*
  5. Crie um algoritmo que receba dois números e some todos os números
     começados no primeiro e terminados no segundo
