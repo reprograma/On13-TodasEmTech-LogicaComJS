@@ -5,3 +5,11 @@
     2. Informe o total da conta do cliente;
     3. Exiba uma mensagem com o valor do troco.
  */
+
+    let dinheiro = parseInt(prompt("Valor pago em dinheiro));
+
+    let conta = parseInt(prompt("Informe o total da compra"));
+
+    
+    let troco = parseInt(dinheiro) - parseInt(conta);
+    document.write("O seu troco é de" + " " + troco);

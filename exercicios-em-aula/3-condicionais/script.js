@@ -24,6 +24,12 @@
 
 let letraEscolhida = prompt("insira uma letra qualquer do alfabeto").toLowerCase();
 
+if (letraEscolhida == "a" || letraEscolhida == "e" || letraEscolhida == "i" || letraEscolhida "o" || letraEscolhida "u" ) {
+  alert (`$ {letraEscolhida} é vogal`);
+} else {
+  alert (`${letraEscolhida} é consoante`);
+}
+
 // 
 
 /* 
@@ -32,10 +38,53 @@ let letraEscolhida = prompt("insira uma letra qualquer do alfabeto").toLowerCase
 
 let numeroEscolhido = prompt("Insira um numero de 1-7");
 
+switch (numeroEscolhido) {
+  case "1":
+    alert ("Domingo");
+    break;
+
+ case "2":
+    alert ("Segunda");
+    break;
+
+ case "3":
+    alert ("Segunda");
+    break;
+
+ case "4":
+    alert ("Terça");
+    break;
+
+ case "5" :
+    alert ("Quarta");
+    break;
+
+ case "6":
+    alert ("Sexta");
+    break;
+
+ case "7":
+    alert ("Sábado");
+    break;
+    
+ default: 
+ alert ("Valor inválido, tente novamente")
+}
+
 /* 
+
   3. Elabore um algoritmo que receba dois números e determine qual é o maior entre eles, se ambos os números forem iguais, mostre uma mensagem no console "Os números são iguais";
 */
+const number1 = number (prompt ("Primeiro número")); 
+const number2 = number (prompt ("Segundo número"));
 
+if (number1 > number2) {
+  alert (`${number1} é maior que ${number2}`);
+  } else if (number1<number2){
+    alert (`${number1} é menor que ${number2}`);
+  } else {
+    alert (`os números são iguais`);
+  }
 
 /*
   4. Crie um algoritmo que receba três notas de um aluno, calcule sua média
@@ -49,6 +98,22 @@ let numeroEscolhido = prompt("Insira um numero de 1-7");
     Alunos de recuperação devem ver a mensagem: Você está de recuperação!
     Alunos reprovados devem ver a mensagem: Que pena, você foi reprovado.
 */
+const note1Studant = number(prompt)("Nota 1 do aluno"));
+const note2Studant = number(prompt)("Nota 2 do aluno"));
+const note3Studant = number(prompt)("Nota 3 do aluno"));
+
+const noteStudant = (note1Studant + note2Studant = note3Studant) / 3;
+
+
+const noteStudant = number(prompt("Nota do aluno"));
+ if (noteStudant >= 7) {
+   alert ("Parabéns, você foi aprovado, aproveite suas férias!");
+ } if else (noteStudant >= 5) {
+   alert ("Você está de recuperação!");
+ } else {
+   alert ("Que pena, você foi reprovado.");
+ }
+
 
 /*
  5. Crie um algoritmo que receba dois números e some todos os números
