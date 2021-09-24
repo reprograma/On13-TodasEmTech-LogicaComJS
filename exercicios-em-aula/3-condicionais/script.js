@@ -21,72 +21,72 @@
   1. Elabore um algoritmo que receba uma letra e determine se é uma vogal ou consoante (Faça duas versões deste código, uma utilizando if-else e outra utilizando switch-case);
 */
 
-// let letraEscolhida = prompt("insira uma letra qualquer do alfabeto");
+let letraEscolhida = prompt("insira uma letra qualquer do alfabeto");
 
-// if (letraEscolhida == "a") {
-//   alert("você digitou vogal");
-// } else if (letraEscolhida == "e") {
-//   alert("você digitou vogal");
-// } else if (letraEscolhida == "i") {
-//   alert("você digitou vogal");
-// } else if (letraEscolhida == "o") {
-//   alert("você digitou vogal");
-// } else if (letraEscolhida == "u") {
-//   alert("você digitou vogal");
-// } else {
-//   alert("você digitou consoante");
-// }
+if (letraEscolhida == "a") {
+  alert("você digitou vogal");
+} else if (letraEscolhida == "e") {
+  alert("você digitou vogal");
+} else if (letraEscolhida == "i") {
+  alert("você digitou vogal");
+} else if (letraEscolhida == "o") {
+  alert("você digitou vogal");
+} else if (letraEscolhida == "u") {
+  alert("você digitou vogal");
+} else {
+  alert("você digitou consoante");
+}
 
-// switch (letraEscolhida) {
-//   case "a":
-//     alert("você digitou vogal");
-//     break;
-//   case "e":
-//     alert("você digitou vogal");
-//     break;
+switch (letraEscolhida) {
+  case "a":
+    alert("você digitou vogal");
+    break;
+  case "e":
+    alert("você digitou vogal");
+    break;
 
-//   case "i":
-//     alert("você digitou vogal");
-//     break;
+  case "i":
+    alert("você digitou vogal");
+    break;
 
-//   case "o":
-//     alert("você digitou vogal");
-//     break;
+  case "o":
+    alert("você digitou vogal");
+    break;
 
-//   case "u":
-//     alert("você digitou vogal");
-//     break;
-//   default:
-//     alert("você digitou consoante");
-// }
+  case "u":
+    alert("você digitou vogal");
+    break;
+  default:
+    alert("você digitou consoante");
+}
 /* 
   2. Elabore um algoritmo que receba um número (1-7) e devolva o dia da semana correspondente;
 */
 
-// let numeroEscolhido = prompt("insira um numero qualquer");
+let numeroEscolhido = prompt("insira um numero qualquer");
 
-// switch (numeroEscolhido) {
-//   case "1":
-//     alert("Monday");
-//     break;
-//   case "2":
-//     alert("Tuesday");
-//     break;
+switch (numeroEscolhido) {
+  case "1":
+    alert("Monday");
+    break;
+  case "2":
+    alert("Tuesday");
+    break;
 
-//   case "4":
-//     alert("Wednesday");
-//     break;
+  case "4":
+    alert("Wednesday");
+    break;
 
-//   case "5":
-//     alert("Thursday");
-//     break;
-//   case "6":
-//     alert("Friday");
-//     break;
+  case "5":
+    alert("Thursday");
+    break;
+  case "6":
+    alert("Friday");
+    break;
 
-//   default:
-//     alert("Sunday");
-// }
+  default:
+    alert("Sunday");
+}
 
 /* 
       3. Elabore um algoritmo que receba dois números e determine qual é o maior entre eles, se ambos os números forem iguais, mostre uma mensagem no console "Os números são iguais";
@@ -116,18 +116,18 @@
         Alunos reprovados devem ver a mensagem: Que pena, você foi reprovado.
     */
 
-let notaUm = prompt("insira sua nota");
-let notaDois = prompt("insira sua nota");
-let notaTres = prompt("insira sua nota");
-let media = (notaUm + notaDois + notaTres) / 3;
+// let notaUm = prompt("insira sua nota");
+// let notaDois = prompt("insira sua nota");
+// let notaTres = prompt("insira sua nota");
+// let media = (notaUm + notaDois + notaTres) / 3;
 
-if (media >= 7) {
-  alert("Aprovado");
-} else if (media <= 5 && media < 7) {
-  alert("Recuperação");
-} else {
-  alert("reprovado");
-}
+// if (media >= 7) {
+//   alert("Aprovado");
+// } else if (media <= 5 && media < 7) {
+//   alert("Recuperação");
+// } else {
+//   alert("reprovado");
+// }
 
 /* 5. Crie um algoritmo que receba dois números e some todos os números
         começados no primeiro e terminados no segundo
