@@ -8,8 +8,12 @@
 
     let quantity = Number(prompt("Insira a quantidade de itens da sua compra"));
 
-    let price = Number(prompt("Insira o valor dos itens"));
+    let sum = 0
 
-    let product = price * quantity;
+    for (let i = 0; i < quantity; i++) {
+        let price = Number(prompt(`Insira o preço do item`));
+         sum += price;
+     }
 
-    alert(product);
+     alert(`O total da sua compra é: ${sum}`)
+    
