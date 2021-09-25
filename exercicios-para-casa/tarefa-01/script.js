@@ -9,3 +9,16 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+
+const usuario = ("dardania");
+const senha = ("12345*");
+
+const nomeUsuario = prompt("Informe o seu nome");
+const senhaUsuario = prompt("Insira a senha");
+
+if (nomeUsuario === usuario && senhaUsuario === senha){
+  alert("Bom dia!")
+}
+  else{
+    alert("Credenciais erradas, tente novamente.")
+  }
