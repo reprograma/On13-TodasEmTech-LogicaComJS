@@ -9,3 +9,19 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+
+
+let nome = prompt("Digite seu nome");
+
+let senha = prompt('Digite sua senha');
+
+if (nome != 0 && senha != 0){
+  alert("Bom dia")
+}
+
+else{
+  alert("Credenciais não encontradas");
+}
+
+
+
