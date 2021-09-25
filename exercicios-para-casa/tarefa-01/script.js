@@ -9,3 +9,17 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+      let usuario = "samara";
+      let senha = 12345
+      
+      
+      let nomeDoUsuario = (prompt("Digite o nome do usuário: ")); 
+      let senhaDoUsuario = (prompt("Digite sua senha: "));
+
+     
+        if ((nomeDoUsuario == usuario) && (senhaDoUsuario == senha)){
+        alert(`Bom dia!`)
+      } else {
+        alert(`Os dados dos usuários estão incorretos!`)
+      }
+    
