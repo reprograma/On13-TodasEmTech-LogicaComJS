@@ -9,3 +9,25 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+
+
+/**1*/
+const nomeUsuario = 'Julia Roberts';
+const senhaUsuario = '123456';
+
+/**2*/
+let nomeInformado = prompt("Digite o seu nome aqui");
+
+/**3*/
+let senhaInformada = prompt("Digite a seu senha aqui");
+
+/**4*/
+if (nomeInformado == nomeUsuario && senhaInformada == senhaUsuario) {
+    alert(`Bom dia!`);
+
+}
+
+if (nomeInformado != nomeUsuario || senhaInformada != senhaUsuario) {
+    alert(`Dados incorretos`);
+
+}
