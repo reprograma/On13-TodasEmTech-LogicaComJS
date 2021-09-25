@@ -25,13 +25,15 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
-      let nomeDeUsuario = prompt("Nome de Usuário").toLowerCase();
-      let senha = prompt("Senha").toLowerCase();
-
-      if (nomeDeUsuario == 'Nome' || senha == 'senha' {
-        alert(`${nomeDeUsuario} é nome`);
+      usuario = "Anna";
+      let senha = 00000000
+      let nomeDeUsuario = (prompt("Digite o nome do usuário"));
+      let senhaDeUsuario = (prompt("Digite a sua senha"));
+      
+      if (nomeDeUsuario == usuario) && (senhaDeUsuario = senha) {
+        alert('Bom dia');
       } else {
-        alert(`${senha} é senha`);
+        alert('Os dados do usuário estão incorretos');
       }
     
   
