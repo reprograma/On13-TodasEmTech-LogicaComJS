@@ -9,3 +9,15 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+
+const correctUserName= ('Maria Eduarda');
+const correctPassword= ('12345');
+
+let userName = prompt('Digite seu nome:');
+let password = prompt('Insira sua senha:');
+
+if ((userName == correctUserName) && (correctPassword == password)){
+  alert ('Bom dia!');
+} else  { 
+  alert('Nome de usuário ou senha incorretos');
+}
