@@ -10,9 +10,9 @@
 let yearBorn = prompt("Insira seu ano de nascimento:");
 const anoAtual = (2021);
 
-if (anoAtual - yearBorn >= 18){
+if (anoAtual - yearBorn >= 18) {
   alert("Cliente maior de idade, venda de bebida autorizada!");
 }
-else{
+else {
   alert("Cliente menor de idade, venda de bebida NÃO autorizada!");
 }

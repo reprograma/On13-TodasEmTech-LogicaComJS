@@ -7,7 +7,7 @@
  */
 
 
-    let quantItens = Number(prompt("Insira a quantidade de itens da sua compra"));
-    let valorItens = Number(prompt("Insira o valor dos itens"));
-    let valorTotal = valorItens * quantItens;
-    alert("O valor total da compra é R$" + valorTotal);
+let quantItens = Number(prompt("Insira a quantidade de itens da sua compra"));
+let valorItens = Number(prompt("Insira o valor dos itens"));
+let valorTotal = valorItens * quantItens;
+alert("O valor total da compra é R$" + valorTotal);

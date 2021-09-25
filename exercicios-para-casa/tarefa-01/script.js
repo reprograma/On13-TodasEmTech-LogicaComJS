@@ -16,9 +16,9 @@ const senha = ("12345*");
 const nomeUsuario = prompt("Informe o seu nome");
 const senhaUsuario = prompt("Insira a senha");
 
-if (nomeUsuario === usuario && senhaUsuario === senha){
+if (nomeUsuario === usuario && senhaUsuario === senha) {
   alert("Bom dia!")
 }
-  else{
-    alert("Credenciais erradas, tente novamente.")
-  }
+else {
+  alert("Credenciais erradas, tente novamente.")
+}

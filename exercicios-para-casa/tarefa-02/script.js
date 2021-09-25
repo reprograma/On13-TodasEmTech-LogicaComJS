@@ -11,5 +11,5 @@ let precoMercadoria = Number(prompt("Insira o valor do produto:"));
 let percDesconto = Number(prompt("Insira a % do desconto:"));
 
 let valorMercadoria = precoMercadoria - ((precoMercadoria * percDesconto) / 100);
-alert("O valor da mercadoria com desconto é R$" + valorMercadoria)
-alert("Nessa compra foram economizados R$" + (precoMercadoria - valorMercadoria))
+alert("O valor da mercadoria com desconto é R$" + valorMercadoria);
+alert("Nessa compra foram economizados R$" + (precoMercadoria - valorMercadoria));
