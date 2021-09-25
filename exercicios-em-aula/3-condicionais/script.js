@@ -19,11 +19,13 @@
 
 
 /* 
-  1. Elabore um algoritmo que receba uma letra e determine se é uma vogal ou consoante (Faça duas versões deste código, uma utilizando if-else e outra utilizando switch-case);
+  1. Elabore um algoritmo que receba uma letra e determine se é uma vogal ou consoante (Faça duas versões deste código,
+uma utilizando if-else e outra utilizando switch-case);
 */
 
 let letraEscolhida = prompt("insira uma letra qualquer do alfabeto").toLowerCase();
 
+if (letraEscolhida == 'a', )
 // 
 
 /* 
@@ -39,7 +41,7 @@ let numeroEscolhido = prompt("Insira um numero de 1-7");
 
 /*
   4. Crie um algoritmo que receba três notas de um aluno, calcule sua média
-     e mostre as seguintes mensagens de acordo com cada situação:
+    e mostre as seguintes mensagens de acordo com cada situação:
   
     Se a media for igual ou maior que 7 - Aprovado
     Se a media for maior e igual a cinco e menor que 7 - Recuperação 
@@ -51,7 +53,7 @@ let numeroEscolhido = prompt("Insira um numero de 1-7");
 */
 
 /*
- 5. Crie um algoritmo que receba dois números e some todos os números
+5. Crie um algoritmo que receba dois números e some todos os números
     começados no primeiro e terminados no segundo
 
     Faça duas versões deste exercício: usando for e usando while

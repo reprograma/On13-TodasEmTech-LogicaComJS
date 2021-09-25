@@ -83,7 +83,7 @@ confirm(mensagem);
 O `prompt` é um alerta que nos oferece, além da lógica de botões, um input para coletarmos variáveis.
 
 ```js
-let nome = "Digite o seu nome";
+0let nome = "Digite o seu nome";
 prompt(nome);
 ```
 
