@@ -9,3 +9,9 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+
+    let userName = prompt ('insira seu nome de usuário');
+    let password = prompt ('insira sua senha');
+
+    
+
