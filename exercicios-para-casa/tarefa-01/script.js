@@ -9,3 +9,18 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+
+      //Iniciando sistema
+      
+      let nomeUsuario = prompt("Digite seu nome");
+      let senhaUsuario = prompt("Digite sua senha");
+      console.log('nomedigitadofoi ' + nomeUsuario);
+      console.log('senhadigitadafoi ' + senhaUsuario);
+      console.log('teste');
+
+      if (nomeUsuario && senhaUsuario) {
+        //usuario informou o nome e senha corretamente
+          alert(`Bom dia, ${nomeUsuario}! `);
+      } else {
+        alert('Você não informou as credenciais corretamente');
+      }
