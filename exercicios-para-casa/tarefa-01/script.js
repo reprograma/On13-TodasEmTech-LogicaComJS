@@ -9,3 +9,18 @@
       b. caso as credenciais estejam erradas, informe o usuário
       (aqui não precisamos pedir as credenciais novamente; podemos finalizar normalmente)
  */
+      const userName = "Celina";
+      const password  = 123456;
+
+      function login () {}
+        const typeUserName  = prompt("Por favor, digite seu nome de usuária");
+        const typePassword  = parseInt(prompt("Por favor, digite sua senha"));
+
+        if (typeUserName === userName  && typePassword === password ){
+          alert(`Bom dia, ${userName}!`);
+        } else {
+          alert("Erro. Por favor, digite novamente seus dados");
+        }
+    
+      
+      login();
